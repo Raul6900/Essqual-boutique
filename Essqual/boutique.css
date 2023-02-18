@@ -1,0 +1,68 @@
+body{
+    background-color: #cccaca !important;
+}
+.top{
+    background-color: #121212;
+}
+.nav-link{
+    white-space: nowrap;
+    font-size:13px !important;
+    color: white !important;
+ }
+ .nav-link:hover{
+color:rgb(0, 0, 0) !important;
+ }
+ #nav{
+    background-color: rgb(182, 111, 29);
+ }
+ .navbar-nav > li > .dropdown-menu {     background-color: rgb(182, 111, 29) }
+ .navbar-nav > li > .dropdown-menu a{   color: #ffffff;  }
+ .navbar-nav > li > .dropdown-menu a{ font-size: 13px;  }
+.navbar-nav > li > .dropdown-menu a:hover { background-color: transparent;}
+.navbar-nav > li > .dropdown-menu a:hover { color: black;}
+
+li{
+    list-style: none;
+}
+.navbar-nav > li > .dropdown-menu{
+    text-align: center;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+  .title{
+    font-family: "ELEGANT";
+    position: relative;
+    text-align: center;
+    font-size: 9vw;
+    color: #a69e06;
+}
+  @import url('https://fonts.cdnfonts.com/css/elegant-2');
+
+  p, h5{
+    text-align: center !important;
+}
+
+#pret{
+    color:#cba200 !important;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+#contact{
+position: absolute;
+left:-90px !important}
+.card-img-top{
+    height:300px;
+}
